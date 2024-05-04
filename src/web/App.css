@@ -1,0 +1,79 @@
+.accessible-font {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: initial;
+  letter-spacing: initial;
+}
+
+h1 {
+  margin-top: 0;
+  /* Force Diablo font for the title, even if the rest of the page is sans-serif. */
+  font-family: AvQuest;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.hidden {
+  display: none;
+}
+
+.sr-only {
+  position: fixed;
+  top: -1px;
+  left: -1px;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+a,
+a:visited {
+  color: rgb(199, 179, 119);
+  text-decoration: none;
+}
+
+.button {
+  appearance: none;
+  margin: 0;
+  text-align: initial;
+  cursor: pointer;
+  box-shadow: none;
+  padding: 0.4em 0.8em;
+  border: 2px solid initial;
+  border-radius: 0;
+  background: transparent;
+  color: white;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+li input[type="radio"] {
+  vertical-align: -12%;
+  margin-bottom: 0.6em;
+}
+
+.magic {
+  color: rgb(105, 105, 255);
+}
+.rare {
+  color: rgb(255, 255, 100);
+}
+.unique {
+  color: rgb(199, 179, 119);
+}
+.set {
+  color: rgb(0, 255, 0);
+}
+.crafted {
+  color: rgb(255, 168, 0);
+}
+.socketed,
+.sidenote {
+  color: rgb(120, 120, 120);
+}
+
+.danger {
+  color: rgb(255, 111, 111);
+}
